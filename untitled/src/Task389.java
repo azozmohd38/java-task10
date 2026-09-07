@@ -3,8 +3,8 @@ public class Task389 {
         if (n <= 0) {
             return 0;
         }
-        int current = (n % 2 == 0) ? n : 0;
-        return current + sumEven(n - 1);
+        int evenNumber = (n % 2 == 0) ? n : 0;
+        return evenNumber + sumEven(n - 1);
     }
 
     public static void main(String[] args) {
