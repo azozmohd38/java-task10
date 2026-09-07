@@ -1,6 +1,5 @@
 public class Task394 {
     public static int countZeros(int num) {
-        // Special base case for initial single-digit 0 input
         if (num == 0) {
             return 1;
         }
@@ -8,7 +7,6 @@ public class Task394 {
     }
 
     private static int countZerosHelper(int num) {
-        // Base case: no digits remaining
         if (num == 0) {
             return 0;
         }
