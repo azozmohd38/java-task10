@@ -13,10 +13,14 @@ public class Task392 {
         }
     }
 
-    public static void main(String[] args) {
+    private static void runExamples() {
         System.out.println(removeChar("banana", 'a'));
         System.out.println(removeChar("hello", 'l'));
         System.out.println(removeChar("mississippi", 's'));
-       System.out.println(removeChar("abc", 'z'));
+        System.out.println(removeChar("abc", 'z'));
+    }
+
+    public static void main(String[] args) {
+        runExamples();
     }
 }
