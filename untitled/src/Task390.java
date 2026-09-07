@@ -1,9 +1,6 @@
 public class Task390 {
     public static int countDigit(int num, int target) {
-        // Handle negative input by making it positive
         num = Math.abs(num);
-
-        // Base case: single digit check (handles num = 0)
         if (num == 0) {
             return 0;
         }
