@@ -14,9 +14,9 @@ public class Task392 {
     }
 
     public static void main(String[] args) {
-        IO.println(removeChar("banana", 'a'));
-        IO.println(removeChar("hello", 'l'));
-        IO.println(removeChar("mississippi", 's'));
-       IO.println(removeChar("abc", 'z'));
+        System.out.println(removeChar("banana", 'a'));
+        System.out.println(removeChar("hello", 'l'));
+        System.out.println(removeChar("mississippi", 's'));
+       System.out.println(removeChar("abc", 'z'));
     }
 }
