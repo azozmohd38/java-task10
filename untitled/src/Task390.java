@@ -1,14 +1,14 @@
 public class Task390 {
-    public static int countDigit(int num, int target) {
+    public static int countDigit(int num, int digit) {
         num = Math.abs(num);
         if (num == 0) {
             return 0;
         }
 
         int lastDigit = num % 10;
-        int count = (lastDigit == target) ? 1 : 0;
+        int count = (lastDigit == digit) ? 1 : 0;
 
-        return count + countDigit(num / 10, target);
+        return count + countDigit(num / 10, digit);
     }
 
     public static void main(String[] args) {
