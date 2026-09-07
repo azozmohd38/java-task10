@@ -9,10 +9,14 @@ public class Task395 {
         return contains(text.substring(1), letter);
     }
 
-    public static void main(String[] args) {
+    private static void runExamples() {
         System.out.println(contains("hello", 'e'));
         System.out.println(contains("world", 'z'));
         System.out.println(contains("java", 'a'));
         System.out.println(contains("", 'x'));
+    }
+
+    public static void main(String[] args) {
+        runExamples();
     }
 }
