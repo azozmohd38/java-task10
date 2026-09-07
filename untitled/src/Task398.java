@@ -10,9 +10,9 @@ public class Task398 {
     }
 
     public static void main(String[] args) {
-        IO.println(countUpper("Hello"));
-        IO.println(countUpper("JavaProgram"));
-        IO.println(countUpper("ABC"));
-        IO.println(countUpper("lower"));
+        System.out.println(countUpper("Hello"));
+        System.out.println(countUpper("JavaProgram"));
+        System.out.println(countUpper("ABC"));
+        System.out.println(countUpper("lower"));
     }
 }
