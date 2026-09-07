@@ -1,12 +1,12 @@
 public class Task392 {
-    public static String removeChar(String str, char target) {
-        if (str.isEmpty()) {
+    public static String removeChar(String text, char remove) {
+        if (text.isEmpty()) {
             return "";
         }
 
-        char first = str.charAt(0);
-        String rest = removeChar(str.substring(1), target);
-        if (first == target) {
+        char first = text.charAt(0);
+        String rest = removeChar(text.subtexting(1), remove);
+        if (first == remove) {
             return rest;
         } else {
             return first + rest;
