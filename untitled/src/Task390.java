@@ -11,10 +11,14 @@ public class Task390 {
         return count + countDigit(num / 10, digit);
     }
 
-    public static void main(String[] args) {
+    private static void runExamples() {
         System.out.println(countDigit(2222, 2));
         System.out.println(countDigit(12321, 1));
         System.out.println(countDigit(5050, 0));
         System.out.println(countDigit(789, 6));
+    }
+
+    public static void main(String[] args) {
+        runExamples();
     }
 }
