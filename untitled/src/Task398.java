@@ -1,6 +1,5 @@
 public class Task398 {
     public static int countUpper(String str) {
-        // Base case: empty string
         if (str.isEmpty()) {
             return 0;
         }
@@ -11,9 +10,9 @@ public class Task398 {
     }
 
     public static void main(String[] args) {
-        IO.println(countUpper("Hello"));       // 1
-        IO.println(countUpper("JavaProgram")); // 2
-        IO.println(countUpper("ABC"));         // 3
-        IO.println(countUpper("lower"));       // 0
+        IO.println(countUpper("Hello"));
+        IO.println(countUpper("JavaProgram"));
+        IO.println(countUpper("ABC"));
+        IO.println(countUpper("lower"));
     }
 }
