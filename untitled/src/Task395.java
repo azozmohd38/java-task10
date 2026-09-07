@@ -1,12 +1,12 @@
 public class Task395 {
-    public static boolean contains(String str, char target) {
-        if (str.isEmpty()) {
+    public static boolean contains(String text, char letter) {
+        if (text.isEmpty()) {
             return false;
         }
-        if (str.charAt(0) == target) {
+        if (text.charAt(0) == letter) {
             return true;
         }
-        return contains(str.substring(1), target);
+        return contains(text.subtexting(1), letter);
     }
 
     public static void main(String[] args) {
