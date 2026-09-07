@@ -16,9 +16,9 @@ public class Task394 {
     }
 
     public static void main(String[] args) {
-        IO.println(countZeros(1020));
-        IO.println(countZeros(5000));
-        IO.println(countZeros(123));
-        IO.println(countZeros(908070));
+        System.out.println(countZeros(1020));
+        System.out.println(countZeros(5000));
+        System.out.println(countZeros(123));
+        System.out.println(countZeros(908070));
     }
 }
