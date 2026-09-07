@@ -11,9 +11,9 @@ public class Task396 {
     }
 
     public static void main(String[] args) {
-        IO.println(sumEvenIndex(new int[]{10, 5, 20, 5, 30}));
-        IO.println(sumEvenIndex(new int[]{1, 2, 3, 4}));
-        IO.println(sumEvenIndex(new int[]{7}));
-        IO.println(sumEvenIndex(new int[]{2, 9}));
+        System.out.println(sumEvenIndex(new int[]{10, 5, 20, 5, 30}));
+        System.out.println(sumEvenIndex(new int[]{1, 2, 3, 4}));
+        System.out.println(sumEvenIndex(new int[]{7}));
+        System.out.println(sumEvenIndex(new int[]{2, 9}));
     }
 }
