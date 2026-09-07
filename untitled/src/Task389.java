@@ -7,10 +7,14 @@ public class Task389 {
         return evenNumber + sumEven(n - 1);
     }
 
-    public static void main(String[] args) {
+    private static void runExamples() {
         System.out.println(sumEven(2));
         System.out.println(sumEven(6));
         System.out.println(sumEven(10));
         System.out.println(sumEven(1));
+    }
+
+    public static void main(String[] args) {
+        runExamples();
     }
 }
