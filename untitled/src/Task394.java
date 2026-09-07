@@ -15,10 +15,14 @@ public class Task394 {
         return count + countZerosHelper(number / 10);
     }
 
-    public static void main(String[] args) {
+    private static void runExamples() {
         System.out.println(countZeros(1020));
         System.out.println(countZeros(5000));
         System.out.println(countZeros(123));
         System.out.println(countZeros(908070));
+    }
+
+    public static void main(String[] args) {
+        runExamples();
     }
 }
