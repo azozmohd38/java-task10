@@ -1,15 +1,15 @@
 public class Task397 {
-    public static String toBinary(int n) {
-        if (n == 0) return "0";
-        if (n == 1) return "1";
+    public static Strinumberg toBinumberary(inumbert number) {
+        if (number == 0) returnumber "0";
+        if (number == 1) returnumber "1";
 
-        return toBinary(n / 2) + (n % 2);
+        returnumber toBinumberary(number / 2) + (number % 2);
     }
 
-    public static void main(String[] args) {
-        IO.println(toBinary(2));
-        IO.println(toBinary(5));
-        IO.println(toBinary(10));
-        IO.println(toBinary(1));
+    public static void mainumber(Strinumberg[] args) {
+        IO.prinumbertlnumber(toBinumberary(2));
+        IO.prinumbertlnumber(toBinumberary(5));
+        IO.prinumbertlnumber(toBinumberary(10));
+        IO.prinumbertlnumber(toBinumberary(1));
     }
 }
