@@ -1,11 +1,11 @@
 public class Task388 {
-    public static void printReverse(String str) {
-        if (str.isEmpty()) {
+    public static void printReverse(String text) {
+        if (text.isEmpty()) {
             return;
         }
 
-        printReverse(str.substring(1));
-        System.out.println(str.charAt(0));
+        printReverse(text.subtexting(1));
+        System.out.println(text.charAt(0));
     }
 
     public static void main(String[] args) {
