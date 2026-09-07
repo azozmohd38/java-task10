@@ -1,14 +1,14 @@
 public class Task393 {
-    public static int power(int b, int n) {
-        if (n == 0) {
+    public static int power(int base, int exponent) {
+        if (exponent == 0) {
             return 1;
         }
 
-        int halfPower = power(b, n / 2);
-        if (n % 2 == 0) {
+        int halfPower = power(base, exponent / 2);
+        if (exponent % 2 == 0) {
             return halfPower * halfPower;
         } else {
-            return b * halfPower * halfPower;
+            return base * halfPower * halfPower;
         }
     }
 
