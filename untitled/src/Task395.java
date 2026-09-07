@@ -10,9 +10,9 @@ public class Task395 {
     }
 
     public static void main(String[] args) {
-        IO.println(contains("hello", 'e'));
-        IO.println(contains("world", 'z'));
-        IO.println(contains("java", 'a'));
-        IO.println(contains("", 'x'));
+        System.out.println(contains("hello", 'e'));
+        System.out.println(contains("world", 'z'));
+        System.out.println(contains("java", 'a'));
+        System.out.println(contains("", 'x'));
     }
 }
