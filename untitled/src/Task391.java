@@ -4,17 +4,12 @@ public class Task391 {
     }
 
     private static boolean isSortedHelper(int[] arr, int index) {
-        // Base case: reached last element or empty array
         if (index >= arr.length - 1) {
             return true;
         }
-
-        // Early exit if out of order
         if (arr[index] > arr[index + 1]) {
             return false;
         }
-
-        // Recurse on next index
         return isSortedHelper(arr, index + 1);
     }
 
