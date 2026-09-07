@@ -10,7 +10,7 @@ public class Task388 {
 
     public static void main(String[] args) {
         printReverse("cat");
-        IO.println("---");
+        System.out.println("---");
         printReverse("hello");
     }
 }
