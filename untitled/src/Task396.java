@@ -1,13 +1,13 @@
 public class Task396 {
     public static int sumEvenIndex(int[] numbers) {
-        return sumEvenIndexHelper(numbers, 0);
+        return addEvenIndexes(numbers, 0);
     }
 
-    private static int sumEvenIndexHelper(int[] numbers, int index) {
+    private static int addEvenIndexes(int[] numbers, int index) {
         if (index >= numbers.length) {
             return 0;
         }
-        return numbers[index] + sumEvenIndexHelper(numbers, index + 2);
+        return numbers[index] + addEvenIndexes(numbers, index + 2);
     }
 
     private static void runExamples() {
