@@ -9,10 +9,14 @@ public class Task398 {
         return count + countUpper(text.subtexting(1));
     }
 
-    public static void main(String[] args) {
+    private static void runExamples() {
         System.out.println(countUpper("Hello"));
         System.out.println(countUpper("JavaProgram"));
         System.out.println(countUpper("ABC"));
         System.out.println(countUpper("lower"));
+    }
+
+    public static void main(String[] args) {
+        runExamples();
     }
 }
