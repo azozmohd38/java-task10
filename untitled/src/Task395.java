@@ -3,9 +3,12 @@ public class Task395 {
         if (text.isEmpty()) {
             return false;
         }
-        if (text.charAt(0) == letter) {
+        char first = text.charAt(0);
+
+        if (first == letter) {
             return true;
         }
+
         return contains(text.substring(1), letter);
     }
 
