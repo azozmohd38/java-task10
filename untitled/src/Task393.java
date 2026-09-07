@@ -1,16 +1,13 @@
 public class Task393 {
     public static int power(int b, int n) {
-        // Base case: any number to power 0 is 1
         if (n == 0) {
             return 1;
         }
 
         int halfPower = power(b, n / 2);
-
-        // If even exponent
         if (n % 2 == 0) {
             return halfPower * halfPower;
-        } else { // If odd exponent
+        } else {
             return b * halfPower * halfPower;
         }
     }
