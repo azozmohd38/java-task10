@@ -6,9 +6,12 @@ public class Task390 {
         }
 
         int lastDigit = num % 10;
-        int count = (lastDigit == digit) ? 1 : 0;
 
-        return count + countDigit(num / 10, digit);
+        if (lastDigit == digit) {
+            return 1 + countDigit(num / 10, digit);
+        }
+
+        return countDigit(num / 10, digit);
     }
 
     private static void runExamples() {
