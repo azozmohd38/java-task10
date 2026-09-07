@@ -8,9 +8,13 @@ public class Task388 {
         System.out.println(text.charAt(0));
     }
 
-    public static void main(String[] args) {
+    private static void runExamples() {
         printReverse("cat");
         System.out.println("---");
         printReverse("hello");
+    }
+
+    public static void main(String[] args) {
+        runExamples();
     }
 }
