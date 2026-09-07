@@ -11,8 +11,11 @@ public class Task394 {
             return 0;
         }
 
-        int count = (number % 10 == 0) ? 1 : 0;
-        return count + countZerosHelper(number / 10);
+        if (number % 10 == 0) {
+            return 1 + countZerosHelper(number / 10);
+        }
+
+        return countZerosHelper(number / 10);
     }
 
     private static void runExamples() {
