@@ -13,9 +13,9 @@ public class Task393 {
     }
 
     public static void main(String[] args) {
-        IO.println(power(2, 10));
-        IO.println(power(3, 4));
-        IO.println(power(5, 3));
-        IO.println(power(2, 0));
+        System.out.println(power(2, 10));
+        System.out.println(power(3, 4));
+        System.out.println(power(5, 3));
+        System.out.println(power(2, 0));
     }
 }
