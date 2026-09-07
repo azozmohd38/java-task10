@@ -12,9 +12,9 @@ public class Task390 {
     }
 
     public static void main(String[] args) {
-        IO.println(countDigit(2222, 2));
-        IO.println(countDigit(12321, 1));
-        IO.println(countDigit(5050, 0));
-        IO.println(countDigit(789, 6));
+        System.out.println(countDigit(2222, 2));
+        System.out.println(countDigit(12321, 1));
+        System.out.println(countDigit(5050, 0));
+        System.out.println(countDigit(789, 6));
     }
 }
