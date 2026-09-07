@@ -1,16 +1,16 @@
 public class Task391 {
-    public static boolean isSorted(int[] arr) {
-        return isSortedHelper(arr, 0);
+    public static boolean isSorted(int[] numbers) {
+        return isSortedHelper(numbers, 0);
     }
 
-    private static boolean isSortedHelper(int[] arr, int index) {
-        if (index >= arr.length - 1) {
+    private static boolean isSortedHelper(int[] numbers, int index) {
+        if (index >= numbers.length - 1) {
             return true;
         }
-        if (arr[index] > arr[index + 1]) {
+        if (numbers[index] > numbers[index + 1]) {
             return false;
         }
-        return isSortedHelper(arr, index + 1);
+        return isSortedHelper(numbers, index + 1);
     }
 
     public static void main(String[] args) {
