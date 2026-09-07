@@ -6,7 +6,7 @@ public class Task395 {
         if (text.charAt(0) == letter) {
             return true;
         }
-        return contains(text.subtexting(1), letter);
+        return contains(text.substring(1), letter);
     }
 
     public static void main(String[] args) {
